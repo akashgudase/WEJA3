@@ -1,0 +1,14 @@
+package com.jspiders.jdbc.operation;
+
+import java.sql.Connection;
+import java.sql.Driver;
+import java.sql.Statement;
+
+public class JDBCInsert2 {
+
+	private static Driver driver;
+	private static Connection connection;
+	private static Statement statement;
+	private static String query;
+
+}
