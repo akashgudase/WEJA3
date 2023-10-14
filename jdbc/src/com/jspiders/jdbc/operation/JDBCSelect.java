@@ -14,6 +14,7 @@ public class JDBCSelect {
 
 	private static Connection connection;
 	private static Statement statement;
+	private static ResultSet resultSet;
 	private static String query;
 
 	public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class JDBCSelect {
 			statement = connection.createStatement();
 			query = "SELECT * FROM student";
 			statement.execute(query);
-			ResultSet resultSet = statement.getResultSet();
+			resultSet = statement.getResultSet();
 			while (resultSet.next()) {
 				System.out.println(resultSet.getInt(1));
 				System.out.println(resultSet.getString(2));
@@ -56,6 +57,9 @@ public class JDBCSelect {
 
 	private static void closeConnection() throws SQLException {
 
+		if (resultSet != null) {
+			resultSet.close();
+		}
 		if (statement != null) {
 			statement.close();
 		}
