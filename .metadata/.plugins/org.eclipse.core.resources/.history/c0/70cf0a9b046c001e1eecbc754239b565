@@ -1,0 +1,50 @@
+package com.jspiders.jdbc.operation;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class JDBCInsert5 {
+
+	private static Connection connection;
+	private static PreparedStatement preparedStatement;
+	private static String query;
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+		try {
+			connection = openConnection();
+			query = "INSERT INTO student VALUES(?,?,?,?,?)";
+			preparedStatement = connection.prepareStatement(query);
+			for (int i = 1; i <= 2; i++) {
+
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	private static Connection openConnection() throws ClassNotFoundException, SQLException {
+
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		return DriverManager.getConnection("jdbc:mysql://localhost:3306/weja3", "root", "root");
+
+	}
+
+	private static void closeConnection() throws SQLException {
+
+		if (preparedStatement != null) {
+			preparedStatement.close();
+		}
+		if (connection != null) {
+			connection.close();
+		}
+
+	}
+
+}
