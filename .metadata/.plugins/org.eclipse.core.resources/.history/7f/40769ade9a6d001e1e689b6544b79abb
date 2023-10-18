@@ -1,0 +1,55 @@
+package com.jspiders.jdbc.operation;
+
+import java.util.Scanner;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+
+		StudentJDBC jdbc = new StudentJDBC();
+		Scanner scanner = new Scanner(System.in);
+		boolean flag = true;
+
+		while (flag) {
+			System.out.println(
+					"Enter 1 to add student.\nEnter 2 to get all students.\nEnter 3 to get student by id.\nEnter 4 to delete student.");
+			int choice = scanner.nextInt();
+			switch (choice) {
+			case 1:
+				Student student = new Student();
+				System.out.println("Enter student id.");
+				student.setId(scanner.nextInt());
+				scanner.nextLine();
+				System.out.println("Enter student name.");
+				student.setName(scanner.nextLine());
+				System.out.println("Enter student email.");
+				student.setEmail(scanner.nextLine());
+				System.out.println("Enter student age.");
+				student.setAge(scanner.nextInt());
+				System.out.println("Enter student fees.");
+				student.setFees(scanner.nextDouble());
+				jdbc.addStudent(student);
+				break;
+			case 2:
+				jdbc.getAllStudents();
+				break;
+			case 3:
+				System.out.println("Enter student id.");
+				jdbc.getStudentById(scanner.nextInt());
+				break;
+			case 4:
+				System.out.println("Enter student id.");
+				jdbc.deleteStudent(scanner.nextInt());
+				break;
+			case 6:
+				System.out.println("Thank you!");
+				flag = false;
+				break;
+			default:
+				System.out.println("Invalid choice.");
+			}
+		}
+
+	}
+
+}
