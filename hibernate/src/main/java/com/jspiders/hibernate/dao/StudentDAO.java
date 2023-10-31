@@ -19,11 +19,11 @@ public class StudentDAO {
 		entityTransaction.begin();
 
 		Student student = new Student();
-		student.setId(2);
-		student.setName("Suresh");
-		student.setEmail("suresh@gmail.com");
-		student.setAge(26);
-		student.setFees(30000);
+		student.setId(3);
+		student.setName("Mahesh");
+		student.setEmail("mahesh@gmail.com");
+		student.setAge(22);
+		student.setFees(35000);
 
 		entityManager.persist(student);
 
