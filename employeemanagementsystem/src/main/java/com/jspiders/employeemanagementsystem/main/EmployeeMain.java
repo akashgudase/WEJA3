@@ -1,4 +1,4 @@
-package com.jspiders.employeemanagementsystem.dao.main;
+package com.jspiders.employeemanagementsystem.main;
 
 import java.util.Scanner;
 
