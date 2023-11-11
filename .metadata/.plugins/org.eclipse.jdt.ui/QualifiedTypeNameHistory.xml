@@ -33,7 +33,6 @@
     <fullyQualifiedTypeName name="com.jspiders.onetomanyuni.dto.Employee"/>
     <fullyQualifiedTypeName name="com.jspiders.manytooneuni.dto.Company"/>
     <fullyQualifiedTypeName name="com.jspiders.manytooneuni.dto.Employee"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="com.jspiders.manytomanyuni.dto.Student"/>
     <fullyQualifiedTypeName name="com.jspiders.manytomanyuni.dto.Course"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
@@ -42,6 +41,10 @@
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.Person"/>
     <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.AadharCard"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="com.jspiders.onetomanybi.dto.Company"/>
+    <fullyQualifiedTypeName name="com.jspiders.onetomanybi.dto.Employee"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
@@ -49,13 +52,12 @@
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="com.jspiders.manytomanybi.dto.Course"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetomanybi.dto.Company"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetomanybi.dto.Employee"/>
+    <fullyQualifiedTypeName name="com.jspiders.manytomanybi.dto.Student"/>
 </qualifiedTypeNameHistroy>
