@@ -51,6 +51,7 @@ tr:nth-child(even) {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 </style>
 
