@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<bean class="com.jspiders.springcorexml.bean.Customer"
+		name="customer1">
+		<property name="id" value="1" />
+		<property name="name" value="Ramesh" />
+		<property name="contact" value="9875235423" />
+		<property name="products">
+			<list>
+				<bean class="com.jspiders.springcorexml.bean.Product"
+					name="product1">
+					<property name="id" value="1" />
+					<property name="name" value="Nord3" />
+					<property name="price" value="34000.00" />
+				</bean>
+				<bean class="com.jspiders.springcorexml.bean.Product"
+					name="product2">
+					<property name="id" value="2" />
+					<property name="name" value="Ideapad 3" />
+					<property name="price" value="65000.00" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+	<bean class="com.jspiders.springcorexml.bean.Customer"
+		name="customer2">
+		<property name="id" value="2" />
+		<property name="name" value="Suresh" />
+		<property name="contact" value="9875235425" />
+		<property name="products">
+			<list>
+				<bean class="com.jspiders.springcorexml.bean.Product"
+					name="product3">
+					<property name="id" value="3" />
+					<property name="name" value="g5 Plus" />
+					<property name="price" value="18000.00" />
+				</bean>
+				<bean class="com.jspiders.springcorexml.bean.Product"
+					name="product4">
+					<property name="id" value="4" />
+					<property name="name" value="141 ANC" />
+					<property name="price" value="1800.00" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+</beans>

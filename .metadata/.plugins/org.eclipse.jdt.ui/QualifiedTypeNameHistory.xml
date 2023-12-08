@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
-    <fullyQualifiedTypeName name="com.jspiders.jdbc.operation.JDBC"/>
-    <fullyQualifiedTypeName name="com.jspiders.jdbc.operation.StudentJDBC"/>
-    <fullyQualifiedTypeName name="com.jspiders.jdbc.operation.Student"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dao.StudentDAO"/>
-    <fullyQualifiedTypeName name="com.jspiders.hibernate.dto.Student"/>
-    <fullyQualifiedTypeName name="javax.persistence.Query"/>
-    <fullyQualifiedTypeName name="com.jspiders.employeemanagementsystem.dto.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
-    <fullyQualifiedTypeName name="com.jspiders.employeemanagementsystem.dao.EmployeeDAO"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetooneuni.dto.AadharCard"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetooneuni.dto.Person"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.UniqueConstraint"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetomanyuni.dto.Company"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetomanyuni.dto.Employee"/>
-    <fullyQualifiedTypeName name="com.jspiders.manytooneuni.dto.Company"/>
     <fullyQualifiedTypeName name="com.jspiders.manytooneuni.dto.Employee"/>
     <fullyQualifiedTypeName name="com.jspiders.manytomanyuni.dto.Student"/>
     <fullyQualifiedTypeName name="com.jspiders.manytomanyuni.dto.Course"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.Person"/>
@@ -52,7 +32,6 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.jspiders.studentmanagementsystem.object.Student"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
@@ -60,4 +39,25 @@
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Student"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.User"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Mobile"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.AadharCard"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Person"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Employee"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Company"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Team"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Player"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Product"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Customer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.config.StudentConfig"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 </qualifiedTypeNameHistroy>
