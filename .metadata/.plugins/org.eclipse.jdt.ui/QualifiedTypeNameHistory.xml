@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jspiders.manytooneuni.dto.Employee"/>
-    <fullyQualifiedTypeName name="com.jspiders.manytomanyuni.dto.Student"/>
-    <fullyQualifiedTypeName name="com.jspiders.manytomanyuni.dto.Course"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.Person"/>
     <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.AadharCard"/>
@@ -53,11 +49,15 @@
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Product"/>
     <fullyQualifiedTypeName name="com.jspiders.springcorexml.bean.Customer"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.config.StudentConfig"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Student"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Mobile"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Car"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.User"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 </qualifiedTypeNameHistroy>

@@ -6,10 +6,6 @@ import lombok.Data;
 
 @Data
 public class Student {
-	
-	{
-		System.out.println("Object created for student");
-	}
 
 	@Value("1")
 	private long id;
