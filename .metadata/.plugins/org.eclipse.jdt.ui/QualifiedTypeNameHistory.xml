@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.Person"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetoonebi.dto.AadharCard"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetomanybi.dto.Company"/>
-    <fullyQualifiedTypeName name="com.jspiders.onetomanybi.dto.Employee"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
@@ -52,12 +41,23 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.config.StudentConfig"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Student"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Mobile"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Car"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
     <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.User"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.AadharCard"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Person"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Wheel"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Vehicle"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.VotingCard"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Voter"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Animal"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.jspiders.springcoreannotation.bean.Forest"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
 </qualifiedTypeNameHistroy>
