@@ -5352,3 +5352,5 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: TEXT must b
 2023-12-12 14:43:41,756 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Programs\WEJA3\springcoreannotation\src\test\resources
 2023-12-12 14:52:17,795 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-12-12 14:52:17,796 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Programs\WEJA3\springcoreannotation\src\main\resources
+2023-12-12 14:52:17,798 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-12-12 14:52:17,798 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Programs\WEJA3\springcoreannotation\src\test\resources
