@@ -6707,3 +6707,4 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: only whites
 2023-12-15 15:51:34,486 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Programs\WEJA3\springcorexml\src\main\resources
 2023-12-15 15:51:34,488 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-12-15 15:51:34,489 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Programs\WEJA3\springcorexml\src\test\resources
+2023-12-15 20:07:12,319 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
